@@ -1,4 +1,4 @@
-# Neural4J
+# NeuralNet4J
 
 This project presents a machine learning library focused on **simple and easy-to-use neural network training and inference in Java**.  
 It provides a CPU-based implementation written from scratch, making it a lightweight and educational framework for beginners and a flexible base for advanced users.  
