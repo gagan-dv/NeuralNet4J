@@ -35,8 +35,8 @@ NeuralNet4J/
                  ├── Trainer.java
                  └── Vector.java
 
-
-### NeuralNetCPUv Contents:
+plaintext```
+NeuralNetCPUv Contents:
 - `Activations.java` – Activation functions (ReLU, Softmax, etc.)
 - `DataUtils.java` – Dataset utilities (shuffle, normalize, split)
 - `Layer.java` – Fully connected layer implementation
