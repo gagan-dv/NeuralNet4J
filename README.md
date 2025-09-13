@@ -14,8 +14,10 @@ It provides a CPU-based implementation written from scratch, making it a lightwe
 - **Dataset utilities**: Shuffling, normalization, and dataset splitting.
 - **Sample dataset**: Includes an example using the Iris dataset for classification.
 
+
 ## Project Structure
 
+```plaintext
 NeuralNet4J/
  └── src/
      └── main/
