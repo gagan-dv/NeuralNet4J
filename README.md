@@ -14,7 +14,19 @@ It provides a CPU-based implementation written from scratch, making it a lightwe
 - **Dataset utilities**: Shuffling, normalization, and dataset splitting.
 - **Sample dataset**: Includes an example using the Iris dataset for classification.
 
-
+## NeuralNetCPUv Contents:
+- `Activations.java` – Activation functions (ReLU, Softmax, etc.)
+- `DataUtils.java` – Dataset utilities (shuffle, normalize, split)
+- `Layer.java` – Fully connected layer implementation
+- `Main.java` – Entry point (demo on Iris dataset)
+- `Matrix.java` – Matrix operations
+- `NeuralNetwork.java` – Core neural network logic
+- `RandomUtil.java` – Random number/shuffling utility
+- `TestDataset.java` – Test dataset wrapper
+- `TrainDataset.java` – Training dataset wrapper
+- `Trainer.java` – Training loop (epochs, loss, evaluation)
+- `Vector.java` – Vector operations
+- 
 ## Project Structure
 
 ```plaintext
@@ -35,16 +47,4 @@ NeuralNet4J/
                  ├── Trainer.java
                  └── Vector.java
 
-plaintext```
-NeuralNetCPUv Contents:
-- `Activations.java` – Activation functions (ReLU, Softmax, etc.)
-- `DataUtils.java` – Dataset utilities (shuffle, normalize, split)
-- `Layer.java` – Fully connected layer implementation
-- `Main.java` – Entry point (demo on Iris dataset)
-- `Matrix.java` – Matrix operations
-- `NeuralNetwork.java` – Core neural network logic
-- `RandomUtil.java` – Random number/shuffling utility
-- `TestDataset.java` – Test dataset wrapper
-- `TrainDataset.java` – Training dataset wrapper
-- `Trainer.java` – Training loop (epochs, loss, evaluation)
-- `Vector.java` – Vector operations
+
