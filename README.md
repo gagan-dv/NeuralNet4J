@@ -26,7 +26,7 @@ It provides a CPU-based implementation written from scratch, making it a lightwe
 - `TrainDataset.java` – Training dataset wrapper
 - `Trainer.java` – Training loop (epochs, loss, evaluation)
 - `Vector.java` – Vector operations
-- 
+
 ## Project Structure
 
 ```plaintext
