@@ -1,8 +1,8 @@
 package NeuralNetCPUv;
 
 public class TrainDataset {
-    public Matrix features;  // Input features matrix
-    public Matrix labels;    // Output labels matrix
+    public Matrix features;
+    public Matrix labels;    
     public int numExamples;
 
     public TrainDataset(int numExamples, int inputSize, int outputSize) {
