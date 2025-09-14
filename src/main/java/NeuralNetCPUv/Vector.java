@@ -7,6 +7,8 @@ import java.util.Random;
  */
 public class Vector {
 
+
+
     private static Random rand = new Random();
 
     /**
