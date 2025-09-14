@@ -6,8 +6,8 @@ package NeuralNetCPUv;
  * and provides utilities like printing and shuffling.
  */
 public class TrainDataset {
-    public Matrix features;  // Input features matrix
-    public Matrix labels;    // Output labels matrix
+    public Matrix features;
+    public Matrix labels;    
     public int numExamples;
 
     /**
