@@ -10,12 +10,11 @@ public class NeuralNetwork {
 
     public NeuralNetwork(int inputSize, int[] hiddenSizes, int outputSize, float learningRate) {
         this.learningRate = learningRate;
-        int totalLayers = hiddenSizes.length + 1; // hidden + output
+        int totalLayers = hiddenSizes.length + 1; 
         layers = new Layer[totalLayers];
 
         int prevSize = inputSize;
         for (int i = 0; i < hiddenSizes.length; i++) {
-            // ReLU hidden layers
             layers[i] = new Layer(prevSize, hiddenSizes[i],
                     x -> Math.max(0f, x),
                     z -> z > 0f ? 1f : 0f);
