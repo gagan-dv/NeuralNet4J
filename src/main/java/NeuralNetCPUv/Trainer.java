@@ -80,3 +80,5 @@ public class Trainer {
         return (float) correct / testData.numExamples;
     }
 }
+
+
